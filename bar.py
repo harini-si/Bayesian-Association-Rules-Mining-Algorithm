@@ -12,7 +12,7 @@ C1 = {}
 transactions = 0
 D = []
 T = []
-with open("bc.txt", "r") as f:
+with open("data/breast-cancer.txt", "r") as f:
     for line in f:
         T = []
         transactions += 1
