@@ -12,6 +12,8 @@ clear:
 	find . -name 'DS_Store' | xargs rm -f
 	rm -f logs/*.txt
 	rm -rf results/test**
+	rm bc.txt
+	
 
 freeze:
 	pip freeze > requirements.txt
