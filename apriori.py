@@ -190,9 +190,9 @@ def generate_association_rules():
                         # bayesian confidence
                         bc = ((inc3 / inc1) ** L) * 100
                         # bayesian lift
-                        bl = (inc3 / inc4) * 100
+                        bl = (bc/ inc4)*len(D)/100
                         print(
-                            "Rule#  %d : %s ==> %s %d %d %d %d"
+                            "Rule#  %d : %s ==> %s %d %d %d %f"
                             % (
                                 num,
                                 s,
