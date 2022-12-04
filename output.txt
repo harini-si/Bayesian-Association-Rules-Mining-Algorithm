@@ -1,0 +1,28 @@
+Top 10 rules with highest bayesian confidence
+                                                    A  ... bayesian lift
+53     ['0-2', 'no-recurrence-events', 'no_irradiat']  ...      1.186561
+40                             ['0-2', 'no_irradiat']  ...      1.171677
+7                                             ['0-2']  ...      1.147770
+27                    ['0-2', 'no-recurrence-events']  ...      1.122337
+52  ['no-recurrence-events', 'no_irradiat', 'no_no...  ...      1.126932
+39                    ['no_irradiat', 'no_node_caps']  ...      1.104960
+29           ['no-recurrence-events', 'no_node_caps']  ...      1.085688
+8                                    ['no_node_caps']  ...      1.085448
+22            ['no-recurrence-events', 'no_irradiat']  ...      0.978333
+0                            ['no-recurrence-events']  ...      0.954042
+
+[10 rows x 6 columns]
+Class association rules
+                                         A  ... bayesian lift
+4                                  ['0-2']  ...      0.891553
+1                         ['no_node_caps']  ...      0.846119
+2                          ['no_irradiat']  ...      0.822308
+34                  ['0-2', 'no_irradiat']  ...      0.769765
+21         ['no_irradiat', 'no_node_caps']  ...      0.744097
+28                 ['0-2', 'no_node_caps']  ...      0.723592
+55  ['0-2', 'no_irradiat', 'no_node_caps']  ...      0.651096
+24                                 ['0-2']  ...      0.726783
+50                  ['0-2', 'no_irradiat']  ...      0.682128
+26                        ['no_node_caps']  ...      0.633220
+
+[10 rows x 6 columns]

@@ -187,9 +187,8 @@ def generate_association_rules():
                             if set(m).issubset(set(T)) == True:
                                 inc4 += 1
 
-                        # bayesian confidence
                         bc = ((inc3 / inc1) ** L) * 100
-                        # bayesian lift
+
                         bl = (bc / inc4) * len(D) / 100
                         print(
                             "Rule#  %d : %s ==> %s %d %d %d %f"
