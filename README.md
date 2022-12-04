@@ -4,8 +4,8 @@ This repository contains the code for our FDS assignment on Bayesian Association
 
 **Title:** A Bayesian Association Rule Mining Algorithm (2013 IEEE International Conference on Systems, Man, and Cybernetics)[[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6722308).
 
-We would be using the Breast cancer dataset for demonstration purposes.[link](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer)
-###I nstructions to run the code
+We would be using the Breast cancer dataset for demonstration purposes,[link](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer)
+### Instructions to run the code
 The file apriori.py generates association rules along with their support,confidence,bayesian confidence and lift values. The file apriori.py takes 2 arguments as input, the minimuim support value and the minimuim confidence value for the apriori algorithm. 
 
 ### Dataset information 
@@ -29,8 +29,10 @@ Attribute Information:
 
 Missing Attribute Values: (denoted by "?")
    Attribute #:  Number of instances with missing values:
-   6.             8
-   9.             1.
+   
+   Atrribute 6: 8
+   
+   Attribute 9: 1
 
 Class Distribution:
     1. no-recurrence-events: 201 instances
