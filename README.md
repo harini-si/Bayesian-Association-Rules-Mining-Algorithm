@@ -7,14 +7,23 @@ This repository contains the code for our FDS assignment on Bayesian Association
 We would be using the Breast cancer dataset for demonstration purposes,[link](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer)
 ### Instructions to run the code
 The requirements are listed in the requirements.txt file. To install the requirements, run the following command:
+
 ```pip install -r requirements.txt```
+
 The dataset is in the data folder,to preprocess the data, run the following command:
+
 ```python preprocess.py```
+
 ```bash convert.sh```
+
 To run the BAR algorithm, run the following command:
+
 ```python bar.py```
+
 To display the association rules and class association rules, run the following command:
+
 ```python main.py```
+
 The file bar.py generates association rules along with their support,confidence,bayesian confidence and lift values. The file apriori.py takes 2 arguments as input, the minimuim support value and the minimuim confidence value for the apriori algorithm. 
 
 

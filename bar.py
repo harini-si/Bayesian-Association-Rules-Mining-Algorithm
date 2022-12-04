@@ -126,7 +126,7 @@ data = []
 
 """generate_association_rules function to mine and print all the association rules with given support and confidence value"""
 header = ["A", "B", "support", "confidence", "bayesian confidence", "bayesian lift"]
-with open("output.csv", "w", encoding="UTF8") as f:
+with open("data/output.csv", "w", encoding="UTF8") as f:
     writer = csv.writer(f)
     writer.writerow(header)
 
@@ -190,7 +190,7 @@ def generate_association_rules():
                         # bayesian confidence
                         bc = ((inc3 / inc1) ** L) * 100
                         # bayesian lift
-                        bl = (bc/ inc4)*len(D)/100
+                        bl = (bc / inc4) * len(D) / 100
                         print(
                             "Rule#  %d : %s ==> %s %d %d %d %f"
                             % (
@@ -205,7 +205,7 @@ def generate_association_rules():
                         )
                         num += 1
                         data = [s, m, 100 * inc2 / len(D), 100 * inc2 / inc1, bc, bl]
-                        with open("output.csv", "a", encoding="UTF8") as f:
+                        with open("data/output.csv", "a", encoding="UTF8") as f:
                             writer = csv.writer(f)
 
                             # write the data
